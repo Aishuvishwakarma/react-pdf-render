@@ -1,0 +1,55 @@
+{
+  "name": "pdf-rendered",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@pdftron/webviewer": "^10.10.1",
+    "@react-pdf/renderer": "^3.4.4",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.2",
+    "file-saver": "^2.0.5",
+    "html-pdf-node": "^1.0.8",
+    "html-to-pdfmake": "^2.5.12",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^4.4.168",
+    "pdfmake": "^0.2.10",
+    "pspdfkit": "^2024.4.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-pdf": "^9.1.0",
+    "react-quill": "^2.0.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.5"
+  }
+}
